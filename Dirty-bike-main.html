@@ -1,0 +1,752 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="output.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/30279ddcaf.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+            <!-- navigation section -->
+  <nav class=" py-4 ">
+    <div class="container grid lg:grid-cols-3  mx-auto px-2 justify-between">
+      <div class=" ml-5 lg:col-span-2">
+      <img src="images/BIKE (1).svg" alt="bikeshop" width="45" height="45">
+      <p class="text-md text-black font-extrabold">Dirty BIKE</p>
+      </div>
+    <div class="flex justify-around gap-5">
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHover" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[50px]
+      hover:before:opacity-100" 
+      type="button">BIKE
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHover" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-black dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mountain Bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FatBike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">E-Scooter</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Vintage bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Japanese City Bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">E-Cart</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">E-MTB</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Folding bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Road Bike</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHoverframes" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[50px]
+      hover:before:opacity-100" 
+      type="button">FRAMES
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHoverframes" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Epic Frameset</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Stumpjumper EVO Alloy 29 - Frameset</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Epic Frameset – Troy Lee Designs LTD</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Stumpjumper EVO Frame</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHovertires" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[50px]
+      hover:before:opacity-100" 
+      type="button">TIRES
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHovertires" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Maxxis Minion DHF 3C/EXO</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Vittoria Mazza</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Continental Kryptotal Rear 2.4</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Specialized Butcher GRID Trail T9</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Continental Kryptotal Front 2.4</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHoveraccessories" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[120px]
+      hover:before:opacity-100" 
+      type="button">ACCESSORIES
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHoveraccessories" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Epic Frameset</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHoverSUPPORT" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[90px]
+      hover:before:opacity-100" 
+      type="button">SUPPORT
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHoverSUPPORT" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Free Maintenance Check</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Shipping Info</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Become our DEALER</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Customer Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <section id="features" class="bg-neutral-900 justify-between py-16"> 
+
+    <div class="grid lg:grid-cols-2 gap-y-3 gap-x-3 container mx-auto px-2">
+          <div  class="text-white text-left ">
+          <div>
+          <h2 class="text-3xl font-extrabold font-Poppins text-center">Welcome to Dirty BIKE</h2>
+          <p class="text-sm font-extralight mt-2 indent-16 text-left ">At Dirty BIKE, we're passionate about all things cycling, and we're thrilled to have you here. Whether you're a seasoned rider, a weekend warrior, or just beginning your cycling journey, you've come to the right place.</p>
+          
+          <p class="text-sm font-light mt-2 text-left indent-16">Our mission is simple: to provide you with the best bikes, gear, and expertise to make your cycling experience exceptional. We believe that cycling is more than just a mode of transportation; it's a lifestyle, a community, and a way to explore the world around us.</p>
+           </div>
+           <div class="text-md font-bold mt-6 text-left">Why choose us?
+            <ul>
+              <li  class="text-sm font-extralight mt-2 text-left"><span class="font-bold">Quality Selection:</span> We offer a carefully curated selection of bikes and accessories from top brands, ensuring you have the best tools for your cycling adventures.</li>
+              <li  class="text-sm font-extralight mt-2 text-left"><span class="font-bold">Expert Advice:</span> Our team of experienced cyclists and mechanics are here to answer your questions, offer guidance, and keep your bike in top shape.</li>
+              <li  class="text-sm font-extralight mt-2 text-left">:<span class="font-bold">Community Connection</span> We're not just a store; we're a hub for cyclists in our community. Join us for group rides, workshops, and events to meet fellow riders and expand your cycling horizons.</li>
+              <li  class="text-sm font-extralight mt-2 text-left"><span class="font-bold">Service Excellence:</span> From bike assembly to repairs and maintenance, our service center is dedicated to keeping you on the road safely and smoothly.</li>
+            </ul>
+              <p  class="text-sm font-extralight mt-5 text-left indent-16">Explore our website to discover our wide range of products, read our helpful guides, and stay updated on the latest cycling news. Don't hesitate to reach out if you need assistance or have any questions – we're here to help you on your cycling journey.<br><br>
+
+                Thank you for choosing Dirty BIKE as your cycling partner. Let's ride together, explore new paths, and create unforgettable memories on two wheels.</p> <br>
+                <p class="font-bold text-lg">Happy cycling!</p>
+           </div>
+
+                                                <!-- carousel section -->
+
+          </div>     
+          <div id="default-carousel" class="relative w-full" data-carousel="slide">
+           <!-- Carousel wrapper -->
+           <div class="relative h-66 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+               <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="images/istockphoto-1247921833-612x612.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+               </div>
+               <!-- Item 2 -->
+               <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="images/istockphoto-1182088794-612x612.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+               </div>
+               <!-- Item 3 -->
+               <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="images/istockphoto-1439238860-612x612.jpg"  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+               </div>
+               <!-- Item 4 -->
+               <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="images/istockphoto-523694171-612x612.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+               </div>
+               <!-- Item 5 -->
+               <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                   <img src="images/istockphoto-1140142809-612x612.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+               </div>
+           </div>
+           <h2 class="text-white text-xl font-bold text-center mt-5">in <span class="text-4xl font-bold">Dirty Bike </span> all bikes are premium <span  class="text-4xl font-bold">QUALITY BIKES</span>...</h2>
+          </div>
+     </div>
+ </section>
+                                                         <!-- catalog section -->
+
+  <section id="latest-models" class="py-16 bg-cover background-color: rgba(0, 0, 0, 0.6) bg-[url('./images/mateusz-klein-9QJBuKCew7Y-unsplash.jpg')]">
+
+    <div class="container mx-auto px-2">
+      <h2 class="text-2xl text-white font-extrabold mb-10">TYPES OF BIKE :</h2>
+
+      <div class="grid lg:grid-cols-3 auto-fill gap-y-3 gap-x-3">
+        <div class="w-full shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center mb-2">
+              <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto-982716664-612x612.jpg">
+          <div class="px4 py-6">
+              <h4 class="font-bold text-white mb-2" >Vintage Style mountain bike</h4>
+              <button data-popover-target="popover-vintage" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+              </button>
+            <div data-popover id="popover-vintage" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+              <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+                  <h3 class="font-bold  text-gray-900 dark:text-black">Vintage Style mountain bike</h3>
+              </div>
+              <div class="px-3 py-2">
+                  <p>vintage bikes are considered to be bicycles manufactured between the late 19th century and the early 1990s. They possess a distinct allure that sets them apart from the modern ones. Three key characteristics contribute to their unique charm: design, craftsmanship, and materials.</p>
+              </div>
+                  <div data-popper-arrow></div>
+            </div>
+        </div>
+        </div>
+        <div class="w-full shadow-2xl hover:drop-shadow-2xl rounded-xl border-solid overflow-hidden bg-transparent text-center mb-2">
+          <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto-1331912544-612x612.jpg">
+        <div class="px4 py-6">
+          <h4 class="font-bold text-white  mb-2 my-1" >OFF-ROAD Mountain Bike</h4>
+          <button data-popover-target="popover-offRoad" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+          </button>
+        <div data-popover id="popover-offRoad" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+          <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+              <h3 class="font-bold  text-gray-900 dark:text-black">OFF-ROAD Mountain bike</h3>
+          </div>
+          <div class="px-3 py-2">
+              <p>Mountain bike carbon fiber T800 SHlMANO M6100 Groupset MTB 29ER Carbon Bicycle Mountain Bike 29, designed for off-road cycling. Mountain bikes share some similarities with other bicycles, but incorporate features designed to enhance durability and performance in rough terrain, which makes them heavier, more complex and less efficient on smooth surfaces.</p>
+          </div>
+              <div data-popper-arrow></div>
+        </div>
+      </div>
+      </div> 
+        <div class="w-full shadow-2xl hover:drop-shadow-2xl rounded-xl border-solid overflow-hidden bg-transparent text-center mb-2">
+            <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto1-1320894369-612x612.jpg">
+          <div class="px4 py-6">
+            <h4 class="font-bold text-white  mb-2 my-1" >Road Bike Mountain bike</h4>
+            <button data-popover-target="popover-roadBike" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+            </button>
+          <div data-popover id="popover-roadBike" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+            <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+                <h3 class="font-bold  text-gray-900 dark:text-black">OFF-ROAD Mountain bike</h3>
+            </div>
+            <div class="px-3 py-2">
+                <p>A road bike is a bicycle designed primarily for riding quickly on paved surfaces. Road bikes have drop handlebars,fairly narrow slick tyres and usually place the rider in a position where their bum is higher than their hands.</p>
+            </div>
+                <div data-popper-arrow></div>
+          </div>
+        </div>
+        </div>
+        <div class="w-full my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center">
+           <img class=" w-full transform transation-all hover:scale-125" src="images/8C3A9144.png">
+         <div class="px4 py-6">
+           <h4 class="font-bold text-white mb-2" >Electric Mountain Bike</h4>
+           <button data-popover-target="popover-Emtb" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+          </button>
+        <div data-popover id="popover-Emtb" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+          <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+              <h3 class="font-bold  text-gray-900 dark:text-black">Electric Mountain Bike</h3>
+          </div>
+          <div class="px-3 py-2">
+              <p>Electric-assist mountain bikes amplify your pedaling power while amplifying the amount of fun you have on the trail. Go farther, go faster, and go more places on an e-MTB that lets you enjoy more of everything you love about mountain biking..</p>
+          </div>
+              <div data-popper-arrow></div>
+        </div>
+      </div>
+        </div>
+        <div class="w-full my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center">
+         <img class=" w-full transform transation-all hover:scale-125" src="images/ab2b3c06-a1dc-47b6-9d85-5550303ba0a4_1024x1024@2x.png">
+       <div class="px4 py-6">
+         <h4 class="font-bold text-white  mb-2 my-1" >Electric Scooter</h4>
+         <button data-popover-target="popover-Escooter" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+        </button>
+      <div data-popover id="popover-Escooter" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+        <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+            <h3 class="font-bold  text-gray-900 dark:text-black">Electric Scooter</h3>
+        </div>
+        <div class="px-3 py-2">
+            <p>A motorized scooter is a stand-up scooter powered by either a small internal combustion engine or electric hub motor in its front and/or rear wheel. Classified as a form of micro-mobility, they are generally designed with a large center deck on which the rider stands..</p>
+        </div>
+            <div data-popper-arrow></div>
+      </div>
+    </div>
+        </div>
+        <div class="w-full my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center">
+           <img class=" w-full  transform transation-all hover:scale-125" src="images/istockphoto-1310997767-612x612.jpg" >
+      <div class="px4 py-6">
+        <h4 class="font-bold text-white  mb-2" >Electric Cart</h4>
+        <button data-popover-target="popover-Ecart" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+        </button>
+      <div data-popover id="popover-Ecart" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+        <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+            <h3 class="font-bold  text-gray-900 dark:text-black">Electric Cart</h3>
+        </div>
+        <div class="px-3 py-2">
+            <p>Electric utility carts; It is a small vehicle designed to transport two golfers and golf clubs with less effort than walking around a golf course or on desert roads. This is the definition used in the dictionaries. This is the purpose and story of its origin. Later, these vehicles were developed, increasing the person capacity and widening the load area. It has attracted attention in terms of using these vehicles in different areas, making them more efficient by carrying more people and having more load area.</p>
+        </div>
+            <div data-popper-arrow></div>
+        </div>
+      </div>
+
+        </div>
+        <div class="w-full  my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center">
+          <img class=" w-full  transform transation-all hover:scale-125" src="images/91IvF9cwCiL.jpg" >
+          <div class="px4 py-6">
+            <h4 class="font-bold text-white  mb-2" >FatBike Mountain Bike</h4>
+            <button data-popover-target="popover-fatbike" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+            </button>
+          <div data-popover id="popover-fatbike" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+            <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+                <h3 class="font-bold mt-8 text-gray-900 dark:text-black">FatBike</h3>
+            </div>
+            <div class="px-3 py-2">
+                <p>A fatbike is an off-road bicycle built to accommodate oversized tyres, typically 3.8 in or larger and rims 2.16 in or wider, designed for low ground pressure to allow riding on soft, unstable terrain, such as snow, sand, bogs and mud, While an electric bike motor may help them cover ground more quickly, the extra weight and finite battery capacity hinder their performance and adventurous intentions.</p>
+            </div>
+                <div data-popper-arrow></div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full  my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center">
+          <img class=" w-full  transform transation-all hover:scale-125" src="images/japan.jpg">
+     <div class="px4 py-6">
+       <h4 class="font-bold text-white mb-2" >Japanese City Bike</h4>
+       <button data-popover-target="popover-JCbike" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+       </button>
+     <div data-popover id="popover-JCbike" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+       <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+           <h3 class="font-bold  text-gray-900 dark:text-black">Japanese City Bike</h3>
+       </div>
+       <div class="px-3 py-2">
+           <p>The trusty ‘shopping bicycle’ is ubiquitous in Japan. It’s used for the daily commute to school and work, carrying kids across town, lugging groceries, and taking in the local landscape. You might be familiar with its nickname, mama-chari. Here’s what you need to know about the 2-wheeler; how shopping bicycles came about, as well as handy tips for purchasing, riding and parking.</p>
+       </div>
+           <div data-popper-arrow></div>
+       </div>
+     </div>
+
+        </div>
+        <div class="w-full my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-transparent text-center">
+        <img class=" w-full  transform transation-all hover:scale-125" src="images/download.png">
+   <div class="px4 py-6">
+     <h4 class="font-bold text-white mb-2" >Folding Bike</h4>
+     <button data-popover-target="popover-foldingBike" type="button" class="text-white text-bold bg-black hover:bg-gray-300 hover:text-black focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-black dark:hover:bg-gray-300 dark:focus:ring-black">Details
+     </button>
+   <div data-popover id="popover-foldingBike" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity tion-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-black dark:border-gray-600 dark:bg-gray-300">
+     <div class="px-3 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-white">
+         <h3 class="font-bold  text-gray-900 dark:text-black">Folding Bike</h3>
+     </div>
+     <div class="px-3 py-2">
+         <p>A folding bicycle is a bicycle designed to fold into a compact form, facilitating transport and storage. When folded, the bikes can be more easily carried into buildings, on public transportation, and more easily stored in compact living quarters or aboard a car, boat or plane.</p>
+     </div>
+         <div data-popper-arrow></div>
+     </div>
+   </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer section with social media icons and newsletter sign-up -->
+<footer
+class="flex flex-col items-center bg-neutral-900 text-center text-white">
+<div class="container px-6 pt-6">
+  <!-- Social media icons container -->
+  <div class="mb-6 flex justify-center">
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+      </svg>
+    </a>
+
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+      </svg>
+    </a>
+
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+          fill-rule="evenodd"
+          clip-rule="evenodd" />
+      </svg>
+    </a>
+
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+      </svg>
+    </a>
+
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+      </svg>
+    </a>
+
+    <a
+      href="#!"
+      type="button"
+      class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+      data-te-ripple-init
+      data-te-ripple-color="light">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="mx-auto h-full w-4"
+        fill="currentColor"
+        viewBox="0 0 24 24">
+        <path
+          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Newsletter sign-up form -->
+  <div>
+    <form action="">
+      <div
+        class="gird-cols-1 grid items-center justify-center gap-4 md:grid-cols-3">
+        <div class="md:mb-6 md:ml-auto">
+          <p class="">
+            <strong>Sign up for our newsletter</strong>
+          </p>
+        </div>
+
+        <!-- Newsletter sign-up input field -->
+        <div class="relative md:mb-6" data-te-input-wrapper-init>
+          <input
+            type="text"
+            class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] text-neutral-200 outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+            id="exampleFormControlInput1"
+            placeholder="Email address" />
+          <label
+            for="exampleFormControlInput1"
+            class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-neutral-200 peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-neutral-200"
+            >Email address
+          </label>
+        </div>
+
+        <!-- Newsletter sign-up submit button -->
+        <div class="mb-6 md:mr-auto">
+          <button
+            type="submit"
+            class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Copyright information -->
+  <div class="mb-6">
+    <p>
+      At Dirty BIKE, we're not just in the business of selling bikes and gear; we're in the business of fueling a passion for cycling. Our journey began 2023 when a group of avid cyclists came together with a shared vision - to create a haven for fellow riders and enthusiasts, where quality, expertise, and community converge.
+    </p>
+  </div>
+
+  <!-- Links section -->
+  <div class="grid md:grid-cols-2 lg:grid-cols-4">
+    <div class="mb-6">
+      <h5 class="mb-2.5 font-bold uppercase">SUPPORT</h5>
+
+      <ul class="mb-0 list-none">
+        <li>
+          <a href="#!" class="text-white">Cancellation Policy</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Register My Bike</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Return Policy</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Shipping Info</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h5 class="mb-2.5 font-bold uppercase">COMMUNITY</h5>
+
+      <ul class="mb-0 list-none">
+        <li>
+          <a href="#!" class="text-white">Events</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Beyond The Bike</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Reviews</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Blog</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h5 class="mb-2.5 font-bold uppercase">COMPANY</h5>
+
+      <ul class="mb-0 list-none">
+        <li>
+          <a href="#!" class="text-white">About Us</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Become a Dealer</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Affiliate Program</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">International Distributors</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h5 class="mb-2.5 font-bold uppercase">SHOPPING HELP</h5>
+
+      <ul class="mb-0 list-none">
+        <li>
+          <a href="#!" class="text-white">Payments Accepted</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Shipping Restrictions</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white"> Terms & Conditions</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Copyright section -->
+<div
+  class="w-full p-4 text-center"
+  style="background-color: rgba(0, 0, 0, 0.904)">
+  © 2023 Copyright:
+  <a class="text-white" href=""
+    >Dirty BIKE</a
+  >
+</div>
+</footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>

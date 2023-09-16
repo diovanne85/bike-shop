@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/30279ddcaf.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class=" py-4 ">
+    <div class="container grid md:grid-cols-1  mx-auto px-2 justify-between">
+      <div class=" ml-5 lg:col-span-2">
+      <img src="images/BIKE (1).svg" alt="bikeshop" width="45" height="45">
+      <p class="text-md text-black font-extrabold">Dirty BIKE</p>
+      </div>
+    <div class="flex justify-around gap-5">
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHover" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[50px]
+      hover:before:opacity-100" 
+      type="button">BIKE
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHover" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-black dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mountain Bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FatBike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">E-Scooter</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Vintage bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Japanese City Bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">E-Cart</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">E-MTB</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Folding bike</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Road Bike</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHoverframes" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[50px]
+      hover:before:opacity-100" 
+      type="button">FRAMES
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHoverframes" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Epic Frameset</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Stumpjumper EVO Alloy 29 - Frameset</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Epic Frameset – Troy Lee Designs LTD</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Stumpjumper EVO Frame</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHovertires" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[50px]
+      hover:before:opacity-100" 
+      type="button">TIRES
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHovertires" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Maxxis Minion DHF 3C/EXO</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Vittoria Mazza</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Continental Kryptotal Rear 2.4</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Specialized Butcher GRID Trail T9</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Continental Kryptotal Front 2.4</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHoveraccessories" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[120px]
+      hover:before:opacity-100" 
+      type="button">ACCESSORIES
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHoveraccessories" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">S-Works Epic Frameset</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+          </li>
+        </ul>
+      </div>
+
+      <button id="dropdownHoverButton" 
+      data-dropdown-toggle="dropdownHoverSUPPORT" 
+      data-dropdown-trigger="hover" 
+      class="capitalize
+      inline-block
+      text-xl
+      text-black
+      font-extrabold
+      relative
+      cursor-pointer
+      transition-all
+      duration-500
+      before:content-['']
+      before:absolute
+      before:-bottom-2
+      before:left-1/2
+      before:-translate-x-1/2
+      before:w-0
+      before:h-1.5
+      before:rounded-full
+      before:opacity-0
+      before:transition-all
+      before:duration-500
+      before:bg-gradient-to-r
+      before:from-gray-600
+      before:via-slate-400
+      before:to-zinc-500
+      hover:before:w-[90px]
+      hover:before:opacity-100" 
+      type="button">SUPPORT
+      </button>
+      <!-- Dropdown menu -->
+      <div id="dropdownHoverSUPPORT" class="z-50 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-black">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Free Maintenance Check</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Shipping Info</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Become our DEALER</a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Customer Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+    <div class="py-4 mx-auto bg-black">
+        <div>
+            <section id="latest-models" class="py-16 bg-cover background-color: rgba(0, 0, 0, 0.6) bg-[url('./images/mateusz-klein-9QJBuKCew7Y-unsplash.jpg')]">
+
+                <div class="container mx-auto px-2">
+                  <h2 class="text-5xl text-white font-extrabold mb-10">Latest Bike Models :</h2>
+                  <div class="grid lg:grid-cols-3 auto-fill gap-y-3 gap-x-3">
+            
+                    <div class="w-full shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-white text-center mb-2">
+                          <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto-982716664-612x612.jpg">
+                        <div class="px4 py-6">
+                          <h4 class="font-bold mb-2" >Vintage Style mountain bike</h4>
+                          <p class="mb-2 px-3.5 indent-9">vintage bikes are considered to be bicycles manufactured between the late 19th century and the early 1990s. They possess a distinct allure that sets them apart from the modern ones. Three key characteristics contribute to their unique charm: design, craftsmanship, and materials.</p>
+                          <button class="px-4 py-2 my-9 inline-block bg-black text-sm text-white hover:bg-gray-300 hover:text-black rounded-full"><a href="#">Buy Now</a></button>
+                        </div>
+                    </div>
+            
+                    <div class="w-full shadow-2xl hover:drop-shadow-2xl rounded-xl border-solid overflow-hidden bg-white text-center mb-2">
+                        <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto-1331912544-612x612.jpg">
+                      <div class="px4 py-6">
+                        <h4 class="font-bold mb-2 my-1" >Green and Black mountain bike</h4>
+                        <p class="mb-2 px-3.5 indent-9">Mountain bike carbon fiber T800 SHlMANO M6100 Groupset MTB 29ER Carbon Bicycle Mountain Bike 29, designed for off-road cycling. Mountain bikes share some similarities with other bicycles, but incorporate features designed to enhance durability and performance in rough terrain, which makes them heavier, more complex and less efficient on smooth surfaces.</p>
+                        <button class="px-4 py-2 my-9 inline-block bg-black text-sm text-white hover:bg-gray-300 hover:text-black rounded-full"><a href="#">Buy Now</a></button>
+                      </div>
+                    </div>
+                    
+                    <div class="w-full shadow-2xl hover:drop-shadow-2xl rounded-xl border-solid overflow-hidden bg-white text-center">
+                          <img class=" w-full my-3 transform transation-all hover:scale-125" src="images/istockphoto1-1320894369-612x612.jpg"
+                          >
+                        <div class="px4 py-6">
+                          <h4 class="font-bold mb-2 my-4" >Road Bike Mountain bike</h4>
+                          <p class="mb-2 px-3.5 indent-9">A road bike is a bicycle designed primarily for riding quickly on paved surfaces. Road bikes have drop handlebars,fairly narrow slick tyres and usually place the rider in a position where their bum is higher than their hands.</p>
+                          <button class="px-4 py-2 my-9 inline-block bg-black text-sm text-white hover:bg-gray-300 hover:text-black rounded-full"><a href="#">Buy Now</a></button>
+                        </div>
+                    </div>    
+                    <div class="w-full my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-white text-center">
+                       <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto-1449341523-612x612.jpg">
+                     <div class="px4 py-6">
+                       <h4 class="font-bold mb-2" >Electric mountain bike</h4>
+                       <p class="mb-2 px-3.5 indent-9">The all-new Levo delivers the unbelievable power to ride more trails through an unequaled combination of ride quality, usable power, and ride anywhere range. It’s the distillation, application, and amplification of a 40-year obsession with creating the world’s best riding mountain bikes. Since its introduction, Levo has set the bar every other e-MTB aims for, and the new Levo raises that bar again.</p>
+            
+                       <button class="px-4 py-2 my-9 inline-block bg-black text-sm text-white hover:bg-gray-300 hover:text-black rounded-full"><a href="#">Buy Now</a></button>
+                     </div>
+                   </div>
+            
+                   <div class="w-full my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-white text-center">
+                     <img class=" w-full transform transation-all hover:scale-125" src="images/istockphoto-1163338058-612x612.jpg">
+                   <div class="px4 py-6">
+                     <h4 class="font-bold mb-2 my-1" >Electric Scooter</h4>
+                     <p class="mb-2 px-3.5 indent-9">When it comes to speed, it can be a toss up. Most commuter e bikes have a maximum speed of 20-30 mph. Similarly priced scooters can reach speeds of up to 40-50 mph, though it's rarely safe or legal to ride that fast. The speed limit for electric scooters in most places is under 20 mph. Range is generally better for e-bikes, as they have larger batteries and can travel farther on a single charge, and pedal assist e bikes depend on human power as well as electric and can still take you home if the battery dies.</p>
+                     <button class="px-4 py-2 my-9 inline-block bg-black text-sm text-white hover:bg-gray-300 hover:text-black rounded-full"><a href="#">Buy Now</a></button>
+                   </div>
+                   </div>
+                 
+                   <div class="w-full  my-2 shadow-2xl hover:drop-shadow-2xl border-solid rounded-xl overflow-hidden bg-white text-center">
+                       <img class=" w-full  transform transation-all hover:scale-125" src="images/istockphoto-1310997767-612x612.jpg" height="363">
+                     <div class="px4 py-6">
+                       <h4 class="font-bold mb-2" >Ebike Cart</h4>
+                       <p class="mb-3 px-3.5 indent-9">To classify as an ebike, the motor has to help you rather than propel you on its own. As a result, you need to pedal to get that assistance. How much power the motor delivers is regulated based on how hard you are pedalling and the level of support you have selected.Electric bike systems offer a number of modes to choose from, allowing you to balance the amount of power supplied through the pedals with range and battery life.</p>
+                       <button class="px-4 py-2 my-9 inline-block bg-black text-sm text-white hover:bg-gray-300 hover:text-black rounded-full"><a href="#">Buy Now</a></button>
+                     </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+        </div>
+
+    </div>
+</body>
+</html>
