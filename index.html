@@ -769,6 +769,13 @@ class="flex flex-col items-center bg-black text-center text-white">
   >
 </div>
 </footer>
+<script>
+  const navLinks = document.querySelector('.nav-links')
+  function onToggleMenu(e){
+      e.name = e.name === 'menu' ? 'close' : 'menu'
+      navLinks.classList.toggle('top-[9%]')
+  }
+</script>
 
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
